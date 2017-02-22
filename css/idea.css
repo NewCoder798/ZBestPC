@@ -1,0 +1,54 @@
+
+/*imglist*/
+.imgList1 a.banner{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.imgList1  img{
+	display: block;
+}
+.imgList1 ul{
+	display: flex;
+	justify-content: space-around;
+}
+.imgList1 ul li a{
+	display: block;
+}
+.imgList1 ul li dl dd{
+	text-indent: 10px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.imgList1 ul li dl dd:nth-child(2):hover{
+	color: #A10000;
+}
+.imgList1 ul li dl dd:nth-child(3){
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	color: #A10000;
+	font-weight: bold;
+}
+.imgList1 ul li a dl{
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+.imgList1 ul li a:hover dl{
+	box-shadow: 0 0  30px #ccc;
+}
+.imgList1 ul li a dl dt{
+	transform: rotateY(0deg);
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+.imgList1 ul li a:hover dl dt {
+	transform: rotateY(180deg);
+}
+.imgList1 h2{
+	width: 80%;
+	margin: 10px auto 20px;
+}
+.imgList1 h2 img{
+	display: block;
+	width: 100%;
+}

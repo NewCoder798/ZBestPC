@@ -1,0 +1,315 @@
+/*bott*/
+.Bott{
+	background: #f5f5f5;
+}
+.Bott .zuo{
+	margin: 20px 20px 20px 0;
+	width: 180px;
+	background: #fff;
+	text-align: center;
+	line-height: 40px; 
+	border: 1px solid #e4e4e4;
+}
+.Bott .zuo h3{
+	border-bottom: 1px solid #A10000;
+	cursor: pointer;
+	padding: 10px 0;
+	font-weight: normal;
+}
+.Bott .zuo h3 a {
+	display: block;
+}
+.Bott .zuo h3 a img{
+	display: block;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p{
+	width: 70%;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p span{
+	border-bottom: 1px solid #fff;
+}
+.Bott .zuo h3 span:hover{
+	color: #A10000;
+	border-bottom: 1px solid #A10000;
+}
+.Bott .zuo div{
+	background: #fcfcff;
+}
+.Bott .zuo  h4{
+	cursor: pointer;
+	width: 90%;
+	color: #444;
+	font-size: 14px;
+}
+.Bott .zuo ul li a{
+	display: inline-block;
+	color: #757575;
+	width: 40%;
+	text-align: left;
+	font-size: 14px;
+}
+.Bott .zuo ul li.on a,.Bott .zuo ul li a:hover{
+	color: #A10000;
+}
+
+.Bott .you{
+	background: #fff;
+	width: 840px;
+	padding: 50px;
+	margin: 20px 0;
+	border: 1px solid #e4e4e4;
+}
+.Bott .you  h2{
+	font-size: 22px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+}
+
+/*个人信息*/
+.Bott .you .gxin{
+	display: flex;
+}
+.Bott .you .gxin div.tx{
+	flex: 1;
+	text-align: center;
+	margin-top: 10%;
+}
+.Bott .you .gxin div.tx a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	border: 1px solid #e3e3e3;
+	padding: 1px;
+}
+.Bott .you .gxin div.tx a p{
+	color: #A10000;
+	margin-top: 5px;
+}
+
+
+.Bott .you .gxin div.xx{
+	flex: 3;
+}
+.Bott .you .gxin div.xx h3{
+	font-size: 16px;
+	padding: 25px 0 15px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.Bott .you .gxin div.xx h3.clearfix{
+	padding: 0 0 15px;
+}
+.Bott .you .gxin div.xx h3.clearfix a{
+	font-weight: normal;
+	font-size: 12px;
+}
+.Bott .you .gxin div.xx div{
+	border-bottom: 1px solid #e6e6e6;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+.Bott .you .gxin div.xx  a{
+	color: #A10000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bianji*/
+body{
+	position: relative;
+}
+/*遮罩*/
+.mask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 20;
+	display: none;
+}
+/*编辑个人信息*/
+.bj,.xg{
+	width: 410px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -220px;
+	z-index: 30;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	display: none;
+}
+.bj div a,.xg div a,.avatar div a{
+	width: 20px;
+	height: 20px;
+}
+.bj div a img,.xg div a img,.avatar div a img{
+	width: 100%;
+	display: block;
+}
+.bj h3,.xg h3,.avatar h3{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.bj form,.xg form{
+	padding: 40px 50px;
+}
+.bj form p,.xg form p{
+	margin-bottom: 10px;
+	color: #666666;
+}
+.bj form p input,.xg form p input{
+	border:1px solid #e8e8e8; 
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 5px;
+}
+.bj form p:nth-child(3) input{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.bj form p:nth-child(3) span{
+	margin-right: 20px;
+}
+.bj form div,.xg form div{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.bj form div input,.xg form div input{
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+.bj form div input:nth-child(1),.xg form div input:nth-child(1){
+	background: #A10000;
+	color: #FFFFFF;
+}
+
+
+
+/*上传头像*/
+.avatar{
+	width: 410px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -220px;
+	z-index: 30;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	display: none;
+}
+.avatar form{
+	padding: 40px 50px;
+}
+.avatar form h4{
+	width: 65%;
+	margin: 0px auto 10px;
+}
+.avatar form p{
+	width: 65%;
+	margin: 5px auto 30px;
+}
+.avatar form  input:nth-child(2){
+	display:block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	background: #A10000;
+	color: #FFFFFF;
+}
+.avatar form  input:nth-child(4){
+	display:block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	background: #fff;
+	color: #000;
+	border: 1px solid #E0E0E0; 
+}
+
+
+
+/*修改密码*/
+form.remima{
+	padding-left: 20px;
+}
+form.remima p{
+	margin-bottom:10px;
+}
+form.remima p:nth-child(1){
+	margin-bottom:15px;
+}
+form.remima p:nth-child(1) input[type=checkbox]{
+	margin-right:5px;
+	vertical-align: -2px;
+}
+form.remima p.op{
+	margin-left: 140px;
+	color: #757575;
+}
+form.remima p span{
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+	font-size: 14px;
+}
+form.remima p input[type=text]{
+	display: inline-block;
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #E0E0E0;
+	text-indent: 10px;
+}
+form.remima p img{
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: -16px;
+	border: 1px solid #E0E0E0;
+}
+form.remima input[type=submit]{
+	display: block;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin:20px 0 0  30%;
+	background: #A10000;
+	color: #fff;
+}

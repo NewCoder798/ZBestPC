@@ -1,0 +1,513 @@
+/*bott*/
+.Bott{
+	background: #f5f5f5;
+}
+.Bott .zuo{
+	margin: 20px 20px 20px 0;
+	width: 180px;
+	background: #fff;
+	text-align: center;
+	 line-height: 40px; 
+	border: 1px solid #e4e4e4;
+}
+.Bott .zuo h3{
+	border-bottom: 1px solid #A10000;
+	cursor: pointer;
+	padding: 10px 0;
+	font-weight: normal;
+}
+.Bott .zuo h3 a img{
+	display: block;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p{
+	width: 70%;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p span{
+	border-bottom: 1px solid #fff;
+}
+.Bott .zuo h3 span:hover{
+	color: #A10000;
+	border-bottom: 1px solid #A10000;
+}
+.Bott .zuo div{
+	background: #fcfcff;
+}
+.Bott .zuo  h4{
+	cursor: pointer;
+	width: 90%;
+	color: #444;
+	font-size: 14px;
+}
+.Bott .zuo ul li a{
+	display: inline-block;
+	color: #757575;
+	width: 40%;
+	text-align: left;
+	font-size: 14px;
+}
+.Bott .zuo ul li.on a,.Bott .zuo ul li a:hover{
+	color: #A10000;
+}
+
+
+
+.Bott .you{
+	background: #fff;
+	width: 840px;
+	padding: 50px;
+	margin: 20px 0;
+	border: 1px solid #e4e4e4;
+}
+
+.Bott .you .my h2{
+	font-size: 22px;
+	font-weight: normal;
+}
+.Bott .you .my h3{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.Bott .you .my h3 span{
+	font-size: 15px;
+}
+.Bott .you  .my a{
+	font-size: 14px;
+	font-weight: normal;
+	color: #404040;
+	margin: 8px 0 0 15px;
+}
+.Bott .you .dlist{
+	margin: 40px 0 32px;
+}
+.Bott .you .dlist ul{
+	margin: 10px;
+}
+.Bott .you .dlist ul li{
+	float: left;
+	font-size: 16px;
+	padding:0 20px ;
+	border-right: 1px solid #e0e0e0;
+}
+.Bott .you .dlist ul li:last-child{
+	border-right: none;
+}
+.Bott .you .dlist ul li a{
+	display: inline-block;
+	color: #8c8c8c;
+}
+.Bott .you .dlist ul li:nth-child(1){
+	padding:0 20px 0 0 ;
+}
+.Bott .you .dlist ul li.on a{
+	color: #A10000;
+}
+.Bott .you .dlist form{
+	width: 260px;
+	height: 40px;
+	border: 1px solid #e0e0e0; 
+}
+.Bott .you .dlist form input:nth-child(1){
+	float: left;
+	text-indent: 15px;
+	width: 219px;
+	line-height: 40px;
+}
+.Bott .you .dlist form input:nth-child(2){
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-left: 1px solid #e0e0e0;
+	background: url(../img/ds.png) no-repeat center center;
+}
+.Bott .you .dkuang{
+	border: 1px solid #b0b0b0;
+	position: relative;
+	margin-bottom: 20px;
+}
+.Bott .you .dkuang p.one{
+	font-size: 16px;
+	color: #8c8c8c;
+	padding: 30px 0 20px 30px;
+}
+.Bott .you .dkuang div.vewwl a.ckwl{
+	font-size: 12px;
+	display: inline-block;
+	margin: 35px 0 0 10px;
+}
+.Bott .you .dkuang div.vewwl a.ckwl:hover{
+	color: #A10000;
+}
+
+.Bott .you .dkuang .word{
+	color: #757575;
+	border-bottom: 1px solid #e0e0e0;
+}
+.Bott .you .dkuang .word ul{
+	margin: 0 0 30px 30px;
+}
+.Bott .you .dkuang .word ul li{
+	float: left;
+	padding: 0 8px;
+	border-right: 1px solid #e0e0e0;
+}
+.Bott .you .dkuang .word ul li:first-child{
+	padding:0 8px 0 0;
+}
+.Bott .you .dkuang .word ul li:last-child{
+	border-right: none;
+}
+.Bott .you .dkuang .word p.fr{
+	margin-right: 30px;
+}
+.Bott .you .dkuang .word p.fr span{
+	font-size: 20px;
+	color: #A10000;
+}
+.Bott .you .dkuang .shohou{
+	padding: 30px;
+}
+.Bott .you .dkuang .shohou a.fl{
+	width: 69px;
+	margin-right: 30px;
+}
+.Bott .you .dkuang .shohou a.fl img{
+	width: 100%;
+	display: block;
+}
+.Bott .you .dkuang .shohou p.fl a{
+	display: block;
+}
+.Bott .you .dkuang .shohou p.fl a:nth-child(1){
+	color: #666;
+	margin-bottom: 10px;
+}
+.Bott .you .dkuang .shohou p.fl a:nth-child(1):hover{
+	color: #A10000;
+}
+.Bott .you .dkuang .shohou p.fr a{
+	display: block;
+	width: 118px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #B0B0B0;
+	color: #666;
+	transition: all .5s;
+}
+.Bott .you .dkuang .shohou p.fr a:hover{
+	background: #757575;
+	color: #fff;
+	transform: translate(0.5);
+}
+.Bott .you .dkuang .shohou p.fr a:nth-child(1){
+	margin-bottom: 10px;
+}
+
+.Bott .you .deng p.one{
+	color: #A10000;
+}
+.Bott .you .deng .shohou p.fr a:nth-child(1){
+	background: #A10000;
+	color: #fff;
+	border: 1px solid #A10000;
+}
+
+
+
+
+
+
+
+.Bott .you .fenye{
+	margin: 45px auto 0; 
+	width: 140px;
+} 
+.Bott .you .fenye a{
+	float: left;
+}
+.Bott .you .fenye a:nth-child(1),.Bott .you .fenye a:nth-child(3){
+	margin-top: 6px;
+}
+.Bott .you .fenye a:nth-child(2){
+	width: 48px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #757575;
+	color: #fff;
+	margin: 0 35px;
+}
+
+
+/*订单详情*/
+
+.you .orderList .orderList1,.you .orderList .orderList2{
+	border-bottom: 1px solid #E0E0E0;
+	padding: 15px 0;
+	cursor: pointer;
+}
+.you .orderList1:nth-child(1){
+	border-top: 1px solid #E0E0E0;
+}
+.you .orderList1 h3,.you .orderList2 h3{
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.you .orderList1:nth-child(1) div p{
+	font-size: 14px;
+	margin-top:10px ;
+}
+.you .orderList1:nth-child(1) div p a{
+	color: #757575;
+}
+.you .orderList1:nth-child(1) div a img{
+	display: block;
+	margin-right: 20px;
+}
+.you .orderList1:nth-child(1) div p a:nth-child(2){
+	margin-left: 50px;
+}
+.you .orderList1 p{
+	margin-bottom:10px;
+	color: #757575;
+	font-size: 14px;
+}
+
+.you .hei strong{
+	font-weight: normal;
+	display: inline-block;
+	width: 75px;
+	text-align: right;
+}
+.you .hei span{
+	color: #A10000;
+}
+
+
+/*wuliu*/
+.wuliu{
+	display: none;
+	width: 235px;
+	border: 1px solid #A10000;
+	border-radius: 10px;
+	padding: 15px;
+	position: absolute;
+	z-index: 10;
+	top: 56px;
+	left: -16px;
+	background: #fff;
+	cursor: pointer;
+}
+.wuliu:before{
+	position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #A10000;
+    border-left: 5px solid transparent;
+}
+.wuliu h4{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.wuliu ul li{
+	background: url(../img/dian2.png) no-repeat 0 7px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.wuliu ul li:first-child{
+	color: #A10000;
+}
+
+.wuliu ul li a{
+	color: #A10000;
+	margin-left: 5px;
+}
+
+
+
+
+
+/*评价*/
+.Bott .you div.sx dl{
+	text-align: center;
+	width: 30%;
+	margin-right: 3.3%;
+	border-bottom: 1px solid #E6E6E6;
+}
+.Bott .you div.sx dl dt a{
+	padding: 10px;
+	display: block;
+}
+.Bott .you div.sx dl dd {
+	margin-bottom: 6px;
+}
+.Bott .you div.sx dl dd:nth-child(2) a{
+	cursor: pointer;
+	color: #A10000;
+}
+
+.Bott .you div.sx dl dd:last-child a{
+	cursor: pointer;
+	display: inline-block;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	background: #F4F4F4;
+	color: #666;
+	transition: all .5s;
+}
+.Bott .you div.sx div:nth-child(1) dl dd:last-child a:hover,
+.Bott .you div.sx div:nth-child(2) dl dd:last-child a:hover{
+	background: #A10000;
+	color: #fff;
+	transform: translate(0.5);
+}
+.Bott .you div.noz{
+	text-align: center;
+	font-size: 16px;
+	color: #b0b0b0;
+	margin: 60px 0;
+	
+}
+
+
+/*logistic*/
+
+.logistic{
+	width: 980px;
+	margin:30px auto;
+}
+.logistic  ul{
+	padding-left: 75px;
+	}
+.logistic li {
+ 	list-style: none;
+ 	position: relative;
+ 	border-bottom: 1px solid #f5f5f5;
+ 	margin-bottom: 8px;
+ 	padding-bottom: 8px;
+ 	color: #666;
+ }
+.logistic li p {
+ 	line-height: 20px;
+ }
+.logistic li.first {
+ 	color: #A10000;
+ }
+.logistic li .before {
+ 	position: absolute;
+ 	left: -13px;
+ 	top: 20px;
+ 	height: 82%;
+ 	width: 0;
+ 	border-left: 2px solid #ddd;
+ }
+.logistic  li .after {
+ 	position: absolute;
+ 	left: -16px;
+ 	top: 5px;
+ 	width: 8px;
+ 	height: 8px;
+ 	background: #ddd;
+ 	border-radius: 6px;
+ } 
+
+.logistic .bb{
+	background: url(../img/bg.png) no-repeat 0 0;
+	position: absolute;
+	left: -20px;
+	top: 10px;
+	width: 41px;
+	height: 18px;
+	margin-left: -41px;
+	margin-top: -9px;
+}
+
+/*遮罩*/
+.mask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 20;
+	display: none;
+}
+/*编辑个人信息*/
+.pj,.chak{
+	width: 410px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -220px;
+	z-index: 30;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	display: none;
+}
+.pj div a,.chak div a{
+	width: 20px;
+	height: 20px;
+}
+.pj div a img,.chak div a img{
+	width: 100%;
+	display: block;
+}
+.pj h3,.chak h3{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.pj form,.chak form{
+	padding: 40px 50px;
+}
+.pj form div.clearfix,.chak form div.clearfix{
+	margin-bottom: 10px;
+}
+.pj form div p:nth-child(1),.chak form div p:nth-child(1){
+	font-size: 14px;
+}
+.pj form p a,.chak form p a{
+	display: inline-block;
+}
+.pj form p a img,.chak form p a img{
+	display: block;
+	width: 100%;
+}
+.pj form textarea,.chak form textarea{
+	width: 100%;
+	height: 180px;
+	padding: 10px;
+	text-indent: 10px;
+}
+.pj form div.bc,.chak form div.bc{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.pj form div input,.chak form div input{
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+.pj form div input:nth-child(1),.chak form div input:nth-child(1){
+	background: #A10000;
+	color: #FFFFFF;
+}
+

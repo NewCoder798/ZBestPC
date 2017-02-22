@@ -1,0 +1,272 @@
+/*bott*/
+.Bott{
+	background: #f5f5f5;
+}
+.Bott .zuo{
+	margin: 20px 20px 20px 0;
+	width: 180px;
+	background: #fff;
+	text-align: center;
+	 line-height: 40px; 
+	border: 1px solid #e4e4e4;
+}
+.Bott .zuo h3{
+	border-bottom: 1px solid #A10000;
+	cursor: pointer;
+	padding: 10px 0;
+	font-weight: normal;
+}
+.Bott .zuo h3 a img{
+	display: block;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p{
+	width: 70%;
+	margin: 0 auto;
+}
+.Bott .zuo h3 p span{
+	border-bottom: 1px solid #fff;
+}
+.Bott .zuo h3 span:hover{
+	color: #A10000;
+	border-bottom: 1px solid #A10000;
+}
+.Bott .zuo div{
+	background: #fcfcff;
+}
+.Bott .zuo  h4{
+	cursor: pointer;
+	width: 90%;
+	color: #444;
+	font-size: 14px;
+}
+.Bott .zuo ul li a{
+	display: inline-block;
+	color: #757575;
+	width: 40%;
+	text-align: left;
+	font-size: 14px;
+}
+.Bott .zuo ul li.on a,.Bott .zuo ul li a:hover{
+	color: #A10000;
+}
+
+
+
+.Bott .you{
+	background: #fff;
+	width: 840px;
+	padding: 50px;
+	margin: 20px 0;
+	border: 1px solid #e4e4e4;
+}
+.Bott .you  h2{
+	font-size: 22px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+}
+
+/*个人信息*/
+.Bott .you .tx {
+	padding-bottom:10px ;
+	border-bottom: 1px solid #E6E6E6; 
+}
+.Bott .you .tx div a.fl{
+	display: block;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	border: 1px solid #e3e3e3;
+	padding: 1px;
+}
+.Bott .you .tx div p{
+	margin: 25px 0 0 15px;
+}
+.Bott .you .tx div p span{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.Bott .you .tx div p a{
+	display: block;
+	color: #A10000;
+}
+.Bott .you .tx div.fr{
+	margin: 40px 0 0 0;
+	color: #757575;
+}
+.Bott .you .bott{
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.Bott .you .bott div{
+	flex: 1 1 50%;
+	margin: 20px 0;
+}
+.Bott .you .bott div p{
+	font-size: 15px;
+	color: #757575;
+	margin: 35px 0 0 15px;
+}
+.Bott .you .bott div p strong{
+	color: #A10000;
+}
+.Bott .you .bott div a{
+	display: block;
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*地址管理*/
+.Bott .you .add{
+	display: flex;
+	justify-content: space-around;
+}
+.Bott .you .add div:nth-child(1){
+	width: 268px;
+	height: 178px;
+	border: 1px solid #E0E0E0;
+	text-align: center;
+}
+.Bott .you .add div:nth-child(1) a{
+	width: 30px;
+	display: block;
+	margin: 60px auto 0;
+}
+.Bott .you .add div:nth-child(2){
+	width: 244px;
+	height: 158px;
+	border: 1px solid #E0E0E0;
+	padding: 20px 0 0 24px;
+	color: #757575;
+	line-height: 20px;
+}
+.Bott .you .add div p:nth-child(1){
+	font-size: 18px;
+	margin-bottom: 25px;
+	color: #262626;
+}
+.Bott .you .add div:nth-child(2) a{
+	color: #A10000;
+	display: inline-block;
+	margin-right: 10px;
+}
+.Bott .you .add div:nth-child(3){
+	width: 268px;
+	height: 178px;
+}
+
+
+
+/*添加地址*/
+body{
+	position: relative;
+}
+/*遮罩*/
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 20;
+	display: none;
+}
+/*
+ 	提交订单页面的修改地址为居中
+ */
+.editAddre{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -150px;
+}
+.adddz{
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	margin-top: -180px;
+	margin-left: -150px;
+	z-index: 30;
+	background: #fff;
+	border: 1px solid #A10000;
+	padding: 30px;
+	display: none;
+}
+.readd{
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	margin-top: -180px;
+	margin-left: -150px;
+	z-index: 30;
+	background: #fff;
+	border: 1px solid #A10000;
+	padding: 30px;
+	display: none;
+}
+.adddz form input,.readd form input{
+	border: 1px solid #e0e0e0;
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 5px;
+}
+.adddz form input.on,.readd form input.on{
+	border: 1px solid #A10000;
+}
+.adddz form div.city select,.readd form div.city select{
+	width: 142px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	margin-bottom:10px;
+}
+.adddz form div.city select:nth-child(odd),.readd form div.city select:nth-child(odd){
+	margin-right: 10px;
+}
+.adddz form textarea,.readd form textarea{
+	width: 100%;
+	height: 50px;
+	padding-top:10px;
+	text-indent: 5px;
+	margin-bottom: 15px;
+}
+.adddz form div.bc,.readd form div.bc{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.adddz form div.bc input,.readd form div.bc input{
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+.adddz form div.bc input:nth-child(1),.readd form div.bc input:nth-child(1){
+	background: #A10000;
+	color: #FFFFFF;
+}
+
+

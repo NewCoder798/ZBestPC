@@ -1,0 +1,902 @@
+.banner{
+	min-width: 1160px;
+}
+.banner img{
+	width:100%;
+}
+/*********************current********************/
+.current{
+	height:60px;
+	line-height:60px;
+	border-bottom:1px solid #DBDBDB;
+	margin-bottom:10px;
+}
+.current .choice{
+	position: relative;
+	line-height:40px;
+}
+/**************select***********/
+.current ul.select{
+	position: absolute;
+	left:0;
+	top:40px;
+	border:1px solid #dbdbdb;
+	margin-top: 10px;
+	display: none;
+	z-index: 30;
+}
+.current ul.select li{
+	border-top:1px solid #DBDBDB;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	padding-left:10px;
+	width:160px;
+	background: #fff;
+}
+.current ul.select li:hover{
+	background: #c10000;
+	color:#fff;
+}
+/******default*******/
+.current p.default{
+	height:40px;
+	margin-top:10px;
+	border:1px solid #dbdbdb;
+	cursor: pointer;
+	padding-left:10px;
+	width:160px;
+	background: url(../img/temp/down.jpg) no-repeat 140px center;
+}
+.current p.default.on{
+	background: url(../img/temp/up.jpg) no-repeat 140px center;
+}
+/*********************proList****************************/
+.proList{
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 1;
+}
+.proList > li{
+	position: relative;
+	float: left;
+	width:268px;
+	margin-top:15px;
+	padding:10px;
+	border:1px solid #fff;
+}
+.proList > li img{
+	width:268px;
+	height:268px;
+}
+.proList > li dl dd{
+	height: 30px;
+	line-height: 30px;
+}
+.proList > li dl dd:last-child,
+.paintList a dl dd:last-child{
+	color: #C10000;
+	font-size:16px;
+}
+/***************aHover*************/
+.proList > li p{
+	position: absolute;
+	left:50%;
+	top:60%;
+	width:200px;
+	height:45px;
+	margin-left:-100px;
+	margin-top:-25px;
+	text-align: center;
+	line-height:45px;
+	border:1px solid #000;
+	background: rgba(255,255,255,0.5);
+	color:#262626;
+}
+/**********************mask****************/
+.mask{
+	position: fixed;
+	left:0;
+	top:0;
+	z-index:101;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+/*******************proDets*************************/
+.proDets{
+	position: fixed;
+	top:50%;
+	left:50%;
+	z-index: 102;
+	margin-left: -370px;
+	margin-top: -280px;
+	padding:30px;
+	width:740px;
+	background: #fff;
+	display: none;
+}
+.off{
+	position: absolute;
+	right:0;
+	top:0;
+	width: 26px;
+	height:26px;
+	cursor: pointer;
+}
+.proDets .tit{
+	height:50px;
+	line-height:50px;
+	font-size:26px;
+	margin-bottom:20px;
+}
+.proDets .tit h4{
+	font-weight: normal;
+}
+.proDets .tit span{
+	color:#C10000;
+}
+.proCon .proImg{
+	width:360px;
+}
+.proCon .proImg img{
+	display: block;
+}
+.smallImg{
+	margin-top:20px;
+}
+.smallImg img{
+	float: left;
+}
+.proIntro .smallImg p{
+	padding: 2px;
+	margin-right: 20px;
+	border:1px solid #fff;
+}
+.proIntro .smallImg img{
+	width:45px;
+}
+.proImg .smallImg img{
+	width:50px;
+	margin-right: 20px;
+}
+.proIntro{
+	width:350px;
+	padding:20px 10px;
+	margin:35px 0;
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+}
+.proIntro > p{
+	height:30px;
+	line-height:30px;
+}
+.proIntro > p span{
+	color:#C10000;
+}
+.proIntro .smallImg{
+	margin:20px 0 35px;
+	position: relative;
+}
+.proIntro .smallImg p.on{
+	border:1px solid #C10000;
+}
+.proIntro .smallImg p{
+	border:1px solid #fff;
+}
+.proIntro .smallImg span{
+	position: absolute;
+	top:55px;
+	left:0;
+	padding:5px;
+	border:1px solid #dbdbdb;
+}
+.proIntro .num{
+	margin-top:20px;
+}
+.proIntro .num span{
+	width:27px;
+	height:27px;
+	line-height:27px;
+	text-align: center;
+}
+.proIntro .num img{
+	width:27px;
+	height:27px;
+	cursor: pointer;
+}
+.proIntro .num p.please{
+	margin-left:20px;
+	color:#C10000;
+	line-height:27px;
+	display: none;
+}
+.btns p,.changeBtn p{
+	width:170px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	cursor:pointer;
+}
+.btns p.buy,.changeBtn p.buy{
+	background: #C10000;
+	color: #fff;
+}
+.btns p.cart,.changeBtn p.cart{
+	border:1px solid #000;
+}
+a.more{
+	position: absolute;
+	right: 26px;
+	bottom: 26px;
+	text-decoration: underline;
+}
+/******************************proDetail******************************/
+.detCon{
+	margin-top:30px;
+}
+.detCon .proDet .proImg > img{
+	width:580px;
+	height:580px;
+}
+.detCon .smallImg > img{
+	width:85px;
+	height:85px;
+}
+.detCon .proImg{
+	width: auto;
+}
+.detCon .intro{
+	width:500px;
+}
+.detCon .intro .title h4{
+	height:50px;
+	line-height:50px;
+	font-weight:normal;
+	font-size: 22px;
+}
+.detCon .intro .title p{
+	margin:10px 0;
+	color: #777;
+}
+.detCon .intro .title span{
+	font-size: 22px;
+	color:#C10000;
+}
+.detCon .intro .proIntro{
+	width:auto;
+}
+.detCon .btn{
+	padding:0 30px;
+}
+.introMsg{
+	margin-top:50px;
+}
+.msgL{
+	width:945px;
+}
+.msgL .msgTit{
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+	height:40px;
+	line-height:40px;
+	margin-bottom: 30px;
+}
+.msgL .msgTit a{
+	float:left;
+	width:90px;
+	text-align: center;
+	cursor: pointer;
+}
+.msgL .msgTit a.on{
+	border-bottom:1px solid #c10000;
+}
+.msgL .msgAll .eva{
+	display: none;
+}
+.per{
+	border-bottom:1px dashed #dbdbdb;
+	margin-bottom:10px;
+}
+.perR{
+	margin-left:15px;
+	width:852px;
+}
+.perR p{
+	line-height: 30px;
+}
+.perR div p{
+	float: left;
+	margin-right:20px;
+	padding:2px;
+	border:1px solid #f0f0f0;
+}
+.perR div p img{
+	display: block;
+}
+.perR p span{
+	color:#b0b0b0;
+	margin-right:10px;
+}
+.msgR{
+	border:1px solid #dbdbdb;
+}
+.msgR h4{
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	background: #f6f6f6;
+	font-weight: normal;
+}
+.seeList{
+	padding:20px;
+}
+.seeList a,.paintList a{
+	display: block;
+	margin-bottom: 20px;
+}
+.seeList dl,
+.likeList dl,
+.paintList dl{
+	line-height: 30px;
+}
+.like{
+	min-width:1423px;
+	background: #fbfbfb;
+	margin: 30px 0;
+}
+.like h4{
+	text-align: center;
+	height:70px;
+	line-height:70px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.imgCon{
+	overflow: hidden;
+	/*width:1123px;*/
+	width:81.5%;
+	min-width: 1160px;
+	margin: 0 auto;
+}
+.likeList{
+	width:9999px;
+	padding-bottom:30px;
+}
+.likeList div{
+	float: left;
+	/*width:1160px;*/
+}
+.likeList div a{
+	float: left;
+	margin-right:20px;
+	width:216px;
+	/*width:18%;*/
+}
+.likeList a img{
+	width:100%;
+}
+.likeList a.last{
+	margin-right:0px;
+}
+.bottom {
+	position: relative;
+}
+.bottom span.prev,.bottom span.next{
+	position: absolute;
+	top:50%;
+	margin-top: -65px;
+	width:50px;
+	cursor: pointer;
+}
+
+.bottom span.prev img,.bottom span.next img{
+	width:100%;
+}
+.bottom span.prev{
+	left:30px;
+}
+.bottom span.next{
+	right:30px;
+}
+.likeList dl dd:last-child{
+	color:#c10000;
+	font-size: 14px;
+}
+.xxCon a{
+	display: block;
+	margin-bottom: 30px;
+}
+.xxCon img{
+	display: block;
+	width:100%;
+}
+/**************paint***************/
+section h3{
+	text-align: center;
+	margin:35px 0;
+}
+.paintList{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between ;
+	margin-top:30px;
+}
+.paintList a img{
+	display: block;
+	margin: 0 auto;
+}
+.paintList a dl {
+	position: relative;
+}
+.paintList a dl dd{
+	padding-left:10px;
+}
+.paintList a dl dt{
+	width: 374px;
+	height: 374px;
+	overflow: hidden;
+}
+.paintList a dl dt img{
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+.paintList a dl:hover{
+	box-shadow: 0 0 15px #666;
+}
+.paintList a dl:hover dt img{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+}
+.paintList a dl dt:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 340px;
+	border-right:2px solid #90D7EC;
+	 transform: scaleY(0); 
+	transform-origin:  0 100%;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	z-index: 100;
+	border-bottom: 2px solid #90D7EC;
+	width: 340px;
+}
+.paintList a dl dt:before{
+	content: "";
+	position: absolute;
+	top: 20px;
+	border-top: 2px solid #90D7EC;
+	left: 20px;
+	width: 340px;
+	z-index: 100;
+	border-left: 2px solid #90D7EC;
+	height: 340px;
+	transform: scaleX(0); 
+	transform-origin: 0 -100%;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+}
+.paintList a dl:hover dt:after{ 
+	transform: scaleY(1);
+	/*transition-timing-function: cubic-bezier(0.52,1.64,0.37,0.66);*/
+	
+}
+.paintList a dl:hover dt:before{ 
+	transform: scaleX(1);
+	/*transition-timing-function: cubic-bezier(0.52,1.64,0.37,0.66);*/
+}
+
+
+
+
+
+
+
+
+
+.paintList > p{
+	flex: 1;
+}
+.third {
+	flex-direction: row;
+}
+.paintList .sec{
+	flex: 2;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between ;
+}
+.last {
+	flex-direction: column;
+}
+.last > p{
+	display: flex;
+	justify-content:space-between ;
+}
+.last .sec{
+	flex: 1;
+}
+/**************************cart**********************************/
+.cart .logo{
+	margin-top:30px;
+}
+.cart .logo h1 .top{
+	display: block;
+	margin:0 auto;
+}
+.cart div.site{
+	height:65px;
+	line-height:65px;
+	font-size:16px;
+}
+.order .site{
+	border-bottom: 1px solid #dbdbdb;
+}
+.cart div.site p a{
+	text-decoration: underline;
+}
+.cart div.site .top{
+	margin-left:290px;
+	margin-top: 10px;
+}
+.change{
+	margin: 54px 0;
+}
+.table .th{
+	display: flex;
+	height:146px;
+	border-bottom: 1px dashed #dbdbdb;
+}
+.table .tr:first-child{
+	display: flex;
+	text-align: center;
+}
+.table .th:nth-last-child(3){
+	border-bottom: none;
+}
+
+.table .tr{
+	height:40px;
+	line-height: 40px;
+	background: #e9e9e9;
+	border-bottom: none;
+}
+.table .th:last-child{
+	display: block;
+}
+.table .th div:nth-child(1),.table .tr:first-child div:nth-child(1){
+	flex: 3;
+}
+.table .th div:nth-child(2),.table .tr:first-child div:nth-child(2){
+	flex: 1;
+}
+.table .th div:nth-child(3),.table .tr:first-child div:nth-child(3){
+	flex: 2;
+}
+.table .th div:nth-child(4),.table .tr:first-child div:nth-child(4){
+	flex: 1;
+}
+.table .th div:nth-child(5),.table .tr:first-child div:nth-child(5){
+	flex: 1;
+}
+.table .th a.del{
+	text-decoration: underline;
+}
+.table .th .price{
+	line-height:146px;
+}
+.table .th .pro{
+	text-align:left;
+}
+.table .th .pro dl{
+	margin-top:13px;
+}
+.table .th .pro dl dt{
+	margin-right:13px;
+}
+.table .th .pro dl dd{
+	position: relative;
+	color:#777;
+	padding:0 10px 10px;
+	border:1px dashed #fff;
+}
+.table .th .pro dl dd span.edit{
+	position: absolute;
+	right:0;
+	bottom:0;
+	color:#C10000;
+}
+.table .th .pro dl dd div.change{
+	position: absolute;
+	right:0;
+	top:-10px;
+	width:300px;
+	height:300px;
+	background: #fff;
+	display: none;
+}
+.table .th .pro dl dd.on{
+	border:1px dashed #C10000;
+}
+.table .th .pro dl dd p{
+	line-height: 20px;
+}
+.table .th .pro dl dd p:nth-child(1){
+	color:#262626;
+	line-height: 40px;
+}
+.table .th .number p{
+	width:81px;
+	margin:60px auto 0;
+}
+.table .th .number p span{
+	width:27px;
+	height:27px;
+	line-height:27px;
+	text-align: center;
+}
+.table label{
+	width: 16px;
+	height: 16px;
+	margin:65px 17px 0 20px;
+	position: relative;
+}
+.table .tr label{
+	margin:13px 17px 0 20px;
+}
+.table  label input[type="checkbox"]{
+	opacity: 0;
+	width:16px;
+	height:16px;
+	position: absolute;
+}
+.table  label input + span{
+	position: absolute;
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	background: url(../img/temp/check.jpg);
+}
+.table  label input[type=checkbox]:checked + span{
+	position: absolute;
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	background: url(../img/temp/checkOn.jpg);
+}
+.table .tr p:last-child a,
+.table .tr p:last-child span{
+	float: left;
+}
+.table .tr p:last-child span:first-child{
+	margin-right:90px;
+	color: #777;
+}
+.table .tr p:last-child a{
+	margin-left:40px;
+	width:150px;
+	text-align: center;
+	color: #fff;
+	background: #8e8e8e;
+}
+.table .tr p small{
+	color: #c10000;
+}
+.table .tr p .del{
+	margin-left:20px;
+}
+.table .goOn{
+	height:500px;
+	line-height:500px;
+	font-size: 16px;
+	color:#666;
+	text-align: center;
+	display: none;
+}
+.table .goOn a{
+	color: #C10000;
+	text-decoration: underline;
+}
+.pleaseC{
+	position: fixed;
+	left:50%;
+	top:50%;
+	z-index: 105;
+	margin-left:-100px;
+	margin-top: -50px;
+	width:200px;
+	height:100px;
+	line-height:100px;
+	background: #fff;
+	text-align: center;
+	color: #000;
+	display: none;
+}
+.tipDel{
+	position: fixed;
+	left:50%;
+	top:50%;
+	z-index: 105;
+	margin-left: -125px;
+	margin-top:-75px;
+	width: 250px;
+	height: 150px;
+	background: #fff;
+	padding: 20px;
+	display: none;
+}
+.tipDel p:first-child{
+	margin-bottom:100px;
+	font-size: 16px;
+}
+.tipDel p a{
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background: #C10000;
+	color:#fff;
+}
+/************************order**********************************/
+
+.order .orderCon {
+	margin-top: 30px;
+}
+.order .orderCon .orderL{
+	width:700px;
+}
+.order .orderCon h3{
+	height:48px;
+	line-height:48px;
+	font-weight: normal;
+	border-bottom:1px solid #dbdbdb;
+	font-size:16px;
+}
+.order .orderCon h3 a{
+	font-size:12px;
+}
+.order .orderCon h3 a{
+	text-decoration: underline;
+}
+.order .orderCon .orderL .addre{
+	width:325px;
+	margin:20px 20px 20px 0;
+	border:2px solid #dbdbdb;
+	cursor: pointer;
+}
+.order .orderCon .orderL .addre.on{
+	border:2px solid #C10000;
+}
+.order .orderCon .orderL .addre .tit{
+	height: 45px;
+	line-height: 45px;
+	padding:0 10px;
+	border-bottom:1px solid  #dbdbdb;
+}
+.order .orderCon .orderL .addre .tit p a{
+	text-decoration: underline;
+}
+.order .orderCon .orderL .addre .tit p span{
+	margin:0 10px;
+}
+.order .orderCon .orderL .addre .addCon{
+	padding:0 10px;
+	background: #f5f5f5;
+}
+.order .orderCon .orderL .addre .addCon p{
+	line-height: 50px;
+}
+.order .orderCon .orderL .way img,.order .orderCon .orderL .dis span{
+	float: left;
+	border:2px solid #dbdbdb;
+	margin: 30px 20px 30px 0;
+	cursor: pointer;
+}
+.order .orderCon .orderL .way img.on,.order .orderCon .orderL .dis span.on{
+	border:2px solid #c10000;
+}
+.order .orderCon .orderL .dis span{
+	width:136px;
+	height:38px;
+	text-align: center;
+	line-height: 38px;
+}
+.order .orderCon .orderR{
+	width:415px;
+}
+.order .orderCon .orderR .msg{
+	background: #f5f5f5;
+	padding:0px 12px 20px;
+}
+.order .orderCon .orderR .msg ul{
+	border-bottom:1px solid #dbdbdb;
+}
+.order .orderCon .orderR .msg ul:last-child{
+	border-bottom:none;
+}
+.order .orderCon .orderR .msg ul li:first-child{
+	margin:10px;
+}
+.order .orderCon .orderR .msg ul li:nth-child(2){
+	line-height: 28px;
+	margin-top: 10px;
+}
+.order .orderCon .orderR .msg ul li:nth-child(3){
+	margin-top: 45px;
+}
+.order .orderCon .orderR .msg ul li:nth-child(2) p:nth-child(2),
+.order .orderCon .orderR .msg ul li:nth-child(2) p:nth-child(3){
+	color:#777;
+}
+.order .orderCon .orderR .tips{
+	padding:10px 0;
+	border-bottom:1px solid #dbdbdb;
+}
+.order .orderCon .orderR .tips p{
+	height: 28px;
+	line-height: 28px;
+}
+.order .orderCon .orderR .count{
+	margin:10px 0;
+	border:none;
+	font-size:16px;
+}
+.order .orderCon .orderR .count span:nth-child(2){
+	color:#c10000;
+}
+.order .orderCon .orderR .pay{
+	display: inline-block;
+	width:100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #c10000;
+	color: #fff;
+}
+/****************ok********************/
+p.ok{
+	text-align: center;
+	color:#c10000;
+	font-size: 16px;
+	margin:50px 0;
+}
+p.ok a{
+	display: block;
+	margin:30px 0;
+	font-size: 12px;
+	color:#777;
+	text-decoration: underline;
+}
+/****************search********************/
+div.schBox{
+	border-bottom: 1px solid #dbdbdb;
+	margin-top:110px;
+}
+ul.sch{
+	border:1px solid #DBDBDB;
+	margin:30px auto;
+	padding:0 10px;
+}
+ul.sch li{
+	height:40px;	
+	line-height:40px;
+	border-bottom: 1px dashed #dbdbdb;	
+}
+ul.sch li:last-child{
+	border:none;
+}
+ul.sch li h4{
+	font-weight: normal;
+}
+ul.sch li h4,ul.sch li a{
+	float:left;
+	margin-right:40px;
+}
+ul.sch li a{
+	color:#666;
+}
